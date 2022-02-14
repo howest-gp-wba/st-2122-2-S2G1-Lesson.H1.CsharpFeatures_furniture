@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson.H1.CsharpFeatures.Do
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lessen.H1.CsharpFeatures.Cons", "Lessen.H1.CsharpFeatures.Cons\Lessen.H1.CsharpFeatures.Cons.csproj", "{B08F7A9A-186F-4D12-A3E8-685F765DEC5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson.H1.CsharpFeatures.WebApp", "Lesson.H1.CsharpFeatures.WebApp\Lesson.H1.CsharpFeatures.WebApp.csproj", "{CE36EDBA-010D-4312-862F-80DE23DB2F1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B08F7A9A-186F-4D12-A3E8-685F765DEC5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B08F7A9A-186F-4D12-A3E8-685F765DEC5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B08F7A9A-186F-4D12-A3E8-685F765DEC5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE36EDBA-010D-4312-862F-80DE23DB2F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE36EDBA-010D-4312-862F-80DE23DB2F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE36EDBA-010D-4312-862F-80DE23DB2F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE36EDBA-010D-4312-862F-80DE23DB2F1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

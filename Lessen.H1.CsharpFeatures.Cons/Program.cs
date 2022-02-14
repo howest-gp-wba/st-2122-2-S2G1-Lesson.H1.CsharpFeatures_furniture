@@ -18,12 +18,18 @@ namespace Lessen.H1.CsharpFeatures.Cons
                 Color = KnownColor.SaddleBrown
             };
 
-            Console.WriteLine($"Meubelstuk nr. {myChair.Id}: {myChair.Type} - {myChair.Color} \t\t{myChair.Description}");
+            Console.WriteLine(myChair);
 
-            double tweetotdevijfde = Math.Pow(2, 5);
 
             // lijst van meubels
-            List<Furniture> household = Furniture.
+            List<Furniture> household = Furniture.GetAll();
+
+            foreach(Furniture furniture in household)
+            {
+                Console.WriteLine(furniture);
+            }
+
+
         
         }
     }

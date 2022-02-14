@@ -11,7 +11,7 @@ namespace Lesson.H1.CsharpFeatures.Domain
         public FurnitureType Type { get; set; }
         public KnownColor Color {get; set;}
 
-        public List<Furniture> GetAll()
+        public static List<Furniture> GetAll()
         {
             return new List<Furniture>
             {
@@ -37,6 +37,11 @@ namespace Lesson.H1.CsharpFeatures.Domain
                         Color = KnownColor.White
                     },
             };
+        }
+
+        public override string ToString()
+        {
+            return $"Meubelstuk nr. {Id}: {Type} - {Color} \t\t{Description}";
         }
 
     }
