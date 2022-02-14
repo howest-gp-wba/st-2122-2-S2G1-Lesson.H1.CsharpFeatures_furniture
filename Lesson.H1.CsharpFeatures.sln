@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson.H1.CsharpFeatures.Domain", "Lesson.H1.CsharpFeatures.Domain\Lesson.H1.CsharpFeatures.Domain.csproj", "{426441C2-2E7E-48B0-BC84-CE0B0A498DBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lessen.H1.CsharpFeatures.Cons", "Lessen.H1.CsharpFeatures.Cons\Lessen.H1.CsharpFeatures.Cons.csproj", "{B08F7A9A-186F-4D12-A3E8-685F765DEC5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{426441C2-2E7E-48B0-BC84-CE0B0A498DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{426441C2-2E7E-48B0-BC84-CE0B0A498DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{426441C2-2E7E-48B0-BC84-CE0B0A498DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{426441C2-2E7E-48B0-BC84-CE0B0A498DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B08F7A9A-186F-4D12-A3E8-685F765DEC5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B08F7A9A-186F-4D12-A3E8-685F765DEC5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B08F7A9A-186F-4D12-A3E8-685F765DEC5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B08F7A9A-186F-4D12-A3E8-685F765DEC5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73728B23-59DF-4830-A135-A5DACD44C179}
+	EndGlobalSection
+EndGlobal
