@@ -8,4 +8,12 @@
     <ProjectReference Include="..\Lesson.H1.CsharpFeatures.Domain\Lesson.H1.CsharpFeatures.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Views\Furniture\" />
+    <None Remove="ViewModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Furniture\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
 </Project>

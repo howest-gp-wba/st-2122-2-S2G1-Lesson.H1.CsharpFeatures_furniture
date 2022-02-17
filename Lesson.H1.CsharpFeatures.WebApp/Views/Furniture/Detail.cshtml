@@ -1,0 +1,22 @@
+﻿@using Lesson.H1.CsharpFeatures.Domain
+@using Lesson.H1.CsharpFeatures.WebApp.ViewModels
+@model FurnitureListViewModel
+
+
+
+<ul>
+    @{
+        foreach(Furniture furniture in Model.Furnitures)
+            {
+                <li>
+                    @furniture?.Type - @furniture?.Color<br/>
+                    <i>@furniture?.Description</i>
+                </li>
+            }
+    }
+
+</ul>
+<p>Total number of articles: @Model.Count</p>
+<p>
+    @Model.QuoteOfTheDay
+</p>
