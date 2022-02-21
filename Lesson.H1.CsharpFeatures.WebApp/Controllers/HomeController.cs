@@ -21,7 +21,7 @@ namespace Lesson.H1.CsharpFeatures.WebApp.Controllers
 
         public IActionResult Index()
         {
-            List<Furniture> household = Furniture.GetAllByType(FurnitureType.Seat);
+            List<Furniture> household = Furniture.GetAll();
             return View(household);
         }
 

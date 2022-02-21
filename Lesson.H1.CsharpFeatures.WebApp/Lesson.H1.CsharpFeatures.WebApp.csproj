@@ -15,5 +15,6 @@
   <ItemGroup>
     <Folder Include="Views\Furniture\" />
     <Folder Include="ViewModels\" />
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
 </Project>

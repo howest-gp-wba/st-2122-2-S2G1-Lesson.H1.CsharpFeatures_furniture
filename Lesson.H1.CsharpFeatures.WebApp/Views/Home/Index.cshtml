@@ -10,7 +10,9 @@
     @{
         foreach(Furniture furniture in Model)
         {
-            <li>@furniture</li>
+            <li>@furniture
+            <p><img src="~/images/@(furniture.Id).png" width="200px" /></p>
+            </li>
         }
     }
     </ul>
