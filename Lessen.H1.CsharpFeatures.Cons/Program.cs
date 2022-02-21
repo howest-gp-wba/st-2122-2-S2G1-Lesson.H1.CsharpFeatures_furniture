@@ -18,11 +18,11 @@ namespace Lessen.H1.CsharpFeatures.Cons
                 Color = KnownColor.SaddleBrown
             };
 
-            Console.WriteLine(myChair);
+            //Console.WriteLine(myChair);
 
 
-            // lijst van meubels
-            List<Furniture> household = Furniture.GetAll();
+            // lijst van meubels - enkel de tafels
+            List<Furniture> household = Furniture.GetAllByType(FurnitureType.Table);
 
             foreach(Furniture furniture in household)
             {

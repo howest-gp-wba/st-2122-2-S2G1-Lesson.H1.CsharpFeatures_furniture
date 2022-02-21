@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
 
 namespace Lesson.H1.CsharpFeatures.Domain
 {
@@ -38,6 +39,24 @@ namespace Lesson.H1.CsharpFeatures.Domain
                     },
             };
         }
+
+        public static List<Furniture> GetAllByType(FurnitureType type)
+        {
+            List<Furniture> allFurniture = Furniture.GetAll();
+
+            //using loop
+            //List<Furniture> filteredFurniture = new List<Furniture>();
+            //foreach (Furniture furniture in allFurniture)
+            //{
+            //    if(furniture?.Type == type) filteredFurniture.Add(furniture);
+            //}
+            //return filteredFurniture;
+
+            // using Linq
+            return allFurniture.Where(f => f.Type == type).ToList();
+
+        }
+
 
         public override string ToString()
         {
